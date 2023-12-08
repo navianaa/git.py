@@ -33,14 +33,13 @@ for index, row in df.iterrows():
 # Pertanyaan 4:
 
 # Tampilkan DataFrame yang sudah diperbarui setelah peningkatan gaji tambahan dan berikan ringkasan hasilnya.
-
 print("\nDataFrame setelah diberikan peningkatan tambahan 2% gaji untuk karyawan di atas usia 30:")
 print(df)
 
 summary = f"\nRingkasan Perubahan:\n"
 for index, row in df.iterrows():
     summary += f"{row['Nama']} ({row['Usia']} tahun): Gaji awal {row['Gaji'] / (1 + bonus_gaji + bonus_tambahan):,.2f}, Gaji setelah peningkatan {row['Gaji']:,.2f}\n"
-    
+
 print(summary)
 
 # ---------------------------- #
