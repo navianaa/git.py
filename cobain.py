@@ -37,9 +37,7 @@ for index, row in df.iterrows():
     summary += f"{row['Nama']} ({row['Usia']} tahun): Gaji awal {row['Gaji'] / (1 + bonus_gaji + bonus_tambahan):,.2f}, Gaji setelah peningkatan {row['Gaji']:,.2f}\n"
 
 print(summary)
-
-
-# ---------------------------- #
+# --------------------------- #
 # Buat Branch Baru pada repository github berikut dengan format KELAS_NRP_NAMA
 # https://gitlab.com/itenas/tugas_pemdas.git
 # ---------------------------- #
